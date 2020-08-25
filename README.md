@@ -1,12 +1,12 @@
 # Fudo3
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/fudo3`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+[![Gem Version](https://badge.fury.io/rb/fudo3.svg)](https://badge.fury.io/rb/fudo3)
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 
 ## Installation
 
-Add this line to your application's Gemfile:
+fudo3は不動産でよく使われる関数をまとめたものです。  
+今後拡張していく予定です。
 
 ```ruby
 gem 'fudo3'
@@ -22,23 +22,39 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+# 平米 → 坪 変換
+Fudo3.heibei_to_tsubo(1)
+=> 0.30250001134375043
 
-## Development
+# 平米 → 畳 変換
+Fudo3.heibei_to_jo(1)
+=> 0.6037918125830214
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+# 坪 → 平米 変換
+Fudo3.tsubo_to_heibei(1)
+=> 3.305785
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+# 坪 → 畳 変換
+Fudo3.tsubo_to_jo(1)
+=> 1.9960059171597635
+
+# 畳 → 平米 変換
+Fudo3.jo_to_heibei(1)
+=> 1.6562
+
+# 畳 → 坪 変換
+Fudo3.jo_to_tsubo(1)
+=> 0.5010005187875194
+
+# 平米
+Fudo3.heibei(1, 1)
+=> 1
+```
 
 ## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/fudo3. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/fudo3/blob/master/CODE_OF_CONDUCT.md).
-
-
-## License
-
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
-## Code of Conduct
-
-Everyone interacting in the Fudo3 project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/fudo3/blob/master/CODE_OF_CONDUCT.md).
+1. Fork it.
+1. Create your feature branch (git checkout -b my-new-feature)
+1. Commit your changes (git commit -am 'Add some feature')
+1. Push to the branch (git push origin my-new-feature)
+1. Create new Pull Request
