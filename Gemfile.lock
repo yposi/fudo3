@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    fudo3 (0.1.0)
+    fudo3 (0.1.1)
 
 GEM
   remote: https://rubygems.org/
