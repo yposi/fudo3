@@ -50,6 +50,14 @@ Fudo3.jo_to_tsubo(1)
 # 平米
 Fudo3.heibei(1, 1)
 => 1
+
+# 坪単価
+Fudo3.price_per_tsubo(10000, 1000)
+=> 10.0
+
+# 平米単価
+Fudo3.price_per_heibei(10000, 1000)
+=> 10.0
 ```
 
 ## Contributing
