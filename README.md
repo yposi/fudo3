@@ -48,7 +48,7 @@ Fudo3.jo_to_tsubo(1)
 => 0.5010005187875194
 
 # 平米
-Fudo3.heibei(1, 1)
+Fudo3.to_heibei(1, 1)
 => 1
 
 # 坪単価
