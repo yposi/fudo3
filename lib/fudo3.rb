@@ -1,4 +1,6 @@
-require "fudo3/version"
+# frozen_string_literal: true
+
+require 'fudo3/version'
 
 module Fudo3
   class Error < StandardError; end
@@ -61,7 +63,7 @@ module Fudo3
   # @param [Float] tsubo 坪
   # @return [Float] 坪単価
   def self.price_per_tsubo(price, tsubo)
-    price.to_f / tsubo.to_f
+    price.to_f / tsubo
   end
 
   # 平米単価
@@ -69,6 +71,6 @@ module Fudo3
   # @param [Float] heibei 平米
   # @return [Float] 平米単価
   def self.price_per_heibei(price, heibei)
-    price.to_f / heibei.to_f
+    price.to_f / heibei
   end
 end
