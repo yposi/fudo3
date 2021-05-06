@@ -23,8 +23,8 @@ RSpec.describe Fudo3 do
     it { expect(Fudo3.jo_to_tsubo(1)).to eq 0.5010005187875194 }
   end
 
-  describe '.heibei' do
-    it { expect(Fudo3.heibei(1, 1)).to eq 1 }
+  describe '.to_heibei' do
+    it { expect(Fudo3.to_heibei(1, 1)).to eq 1 }
   end
 
   describe '.price_per_tsubo' do

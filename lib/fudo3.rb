@@ -52,7 +52,7 @@ module Fudo3
   # @param [Float] length 縦
   # # @param [Float] width 横
   # @return [Float] 平米
-  def self.heibei(length, width)
+  def self.to_heibei(length, width)
     length.to_f * width.to_f
   end
 
