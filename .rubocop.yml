@@ -1,0 +1,15 @@
+require: rubocop-rake
+
+Style/AsciiComments:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Naming/MethodParameterName:
+  MinNameLength: 2
+
+Metrics/BlockLength:
+  Exclude:
+    - 'fudo3.gemspec'
+    - 'spec/**/*'
