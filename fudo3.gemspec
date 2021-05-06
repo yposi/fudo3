@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.description   = '不動産で使用する関数をまとめたgemです。'
   spec.homepage      = 'https://github.com/yposi/fudo3'
   spec.license       = 'MIT'
-  spec.required_ruby_version = Gem::Requirement.new('>= 2.6')
+  spec.required_ruby_version = Gem::Requirement.new('>= 2.7')
 
   if spec.respond_to?(:metadata)
     spec.metadata['homepage_uri'] = spec.homepage
