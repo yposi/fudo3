@@ -1,4 +1,10 @@
-## 0.2.1**** (2021-12-29)
+## 0.2.2 (2022-01-01)
+
+* Bump rubocop from 1.24.0 to 1.24.1 ([810c29a](https://github.com/yposi/fudo3/commit/810c29a))
+* Create codeql-analysis.yml ([99016a3](https://github.com/yposi/fudo3/commit/99016a3))
+* fix .rubocop.yml ([16f421e](https://github.com/yposi/fudo3/commit/16f421e))
+
+## 0.2.1 (2021-12-29)
 
 * Bump rake from 13.0.3 to 13.0.6 ([cb49fe3](https://github.com/yposi/fudo3/commit/cb49fe3))
 * Bump rubocop from 1.14.0 to 1.24.0 ([169b2b5](https://github.com/yposi/fudo3/commit/169b2b5))
