@@ -1,4 +1,8 @@
-## 0.2.3 (2022-01-06)
+## 1.0.0 (2022-01-13)
+
+* Bump rspec_junit_formatter from 0.5.0 to 0.5.1 ([15dc3c0](https://github.com/yposi/fudo3/commit/15dc3c0))
+
+## <small>0.2.3 (2022-01-06)</small>
 
 * Bump rspec_junit_formatter from 0.4.1 to 0.5.0 ([3a83d24](https://github.com/yposi/fudo3/commit/3a83d24))
 

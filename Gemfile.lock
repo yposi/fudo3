@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    fudo3 (0.2.3)
+    fudo3 (0.2.4)
 
 GEM
   remote: https://rubygems.org/
@@ -29,7 +29,7 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.10.0)
     rspec-support (3.10.3)
-    rspec_junit_formatter (0.5.0)
+    rspec_junit_formatter (0.5.1)
       rspec-core (>= 2, < 4, != 2.12.0)
     rubocop (1.24.1)
       parallel (~> 1.10)
