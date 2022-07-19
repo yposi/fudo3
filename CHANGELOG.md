@@ -1,4 +1,10 @@
-## 0.2.5 (2022-04-24)
+## 0.2.7 (2022-07-19)
+* Bump rubocop from 1.28.1 to 1.31.2 ([1a5a041](https://github.com/yposi/fudo3/commit/1a5a041))
+* Bump rubocop-rspec from 2.10.0 to 2.12.1 ([822ed6a](https://github.com/yposi/fudo3/commit/822ed6a))
+
+## <small>0.2.6 (2022-04-24)</small>
+
+## <small>0.2.5 (2022-04-24)</small>
 
 * Bump rake from 13.0.3 to 13.0.6 ([cb49fe3](https://github.com/yposi/fudo3/commit/cb49fe3))
 * Bump rspec from 3.10.0 to 3.11.0 ([b9b0921](https://github.com/yposi/fudo3/commit/b9b0921))
