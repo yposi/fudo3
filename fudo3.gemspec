@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
     spec.metadata['changelog_uri'] = 'https://github.com/yposi/fudo3'
   else
     raise 'RubyGems 2.0 or newer is required to protect against ' \
-      'public gem pushes.'
+          'public gem pushes.'
   end
 
   # Specify which files should be added to the gem when it is released.
@@ -40,4 +40,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rubocop-rake'
   spec.add_development_dependency 'rubocop-rspec'
   spec.add_development_dependency 'simplecov'
+  spec.metadata['rubygems_mfa_required'] = 'true'
 end
