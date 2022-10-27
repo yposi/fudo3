@@ -1,3 +1,8 @@
+## 0.2.8 (2022-10-27)
+* Bump rubocop from 1.31.2 to 1.37.1 ([a68b674](https://github.com/yposi/fudo3/commit/a68b674))
+* Bump rspec_junit_formatter from 0.5.1 to 0.6.0 ([f7f72fb](https://github.com/yposi/fudo3/commit/f7f72fb))
+* Bump rubocop-rspec from 2.12.1 to 2.14.2 ([3e2ab31](https://github.com/yposi/fudo3/commit/3e2ab31))
+
 ## 0.2.7 (2022-07-19)
 * Bump rubocop from 1.28.1 to 1.31.2 ([1a5a041](https://github.com/yposi/fudo3/commit/1a5a041))
 * Bump rubocop-rspec from 2.10.0 to 2.12.1 ([822ed6a](https://github.com/yposi/fudo3/commit/822ed6a))
